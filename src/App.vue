@@ -14,10 +14,17 @@
       <van-cell title="单元格" value="内容" />
       <van-cell title="单元格" value="内容" label="描述信息" />
     </van-cell-group>
+    <div class="box" style="padding: 20px"></div>
   </div>
 </template>
 
 <script>
 export default {}
 </script>
-<style lang="less"></style>
+<style lang="less" scoped>
+.box {
+  width: 200px;
+  height: 80px;
+  background-color: pink;
+}
+</style>
